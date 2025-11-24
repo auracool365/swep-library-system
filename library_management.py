@@ -15,7 +15,7 @@ class LibraryManagementSystem:
             'student': 14,  # 14 days
             'staff': 30,    # 30 days
             'faculty': 60,   # 60 days
-            'alumni' : 80  # 80
+            'alumni' : 80   # 80 days
         }
         self.fine_per_day = 50.0  # ₦50 per day
         self.next_transaction_id = self._get_next_transaction_id()
